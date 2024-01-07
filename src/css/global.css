@@ -173,12 +173,12 @@ pre {
 
 code,
 kbd {
-  color: var(--accent);
   font-feature-settings: normal;
   background: color-mod(var(--accent) a(20%));
   color: var(--accent);
   padding: 1px 6px;
   margin: 0 2px;
+  border-radius: 4px;
   font-size: 0.95rem;
 }
 
@@ -206,7 +206,7 @@ pre::-webkit-scrollbar-thumb {
 
 pre,
 code {
-  font-family: "Inconsolata", monospace;
+  font-family: Consolas, monospace;
 }
 
 pre code {
