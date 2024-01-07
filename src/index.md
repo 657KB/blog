@@ -1,8 +1,26 @@
 ---
 layout: home
-title: 'Eleventy Duo'
+title: 'Home'
 ---
 
-# Hello World
+# Hi, I'm 657 👾
 
-Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs. Checkout the [project's github repo](https://github.com/yinkakun/eleventy-duo) for more info.
+一只普通人，非常懒。
+
+<style>
+.home-spacer {
+  min-height: 4rem;
+}
+.home-link {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 200%;
+  color: #757575;
+}
+</style>
+
+<div class="home-spacer"></div>
+<a class="home-link" href="https://github.com/kuyermqi/">Github: kuyermqi</a>
+<a class="home-link" href="mailto:kuyermqi@outlook.com">Email: kuyermqi@outlook.com</a>
