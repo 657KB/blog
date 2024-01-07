@@ -1,7 +1,7 @@
 {
   "name": "657's life",
   "description": "May the force be with you.",
-  "url": "https://eleventyduo.netlify.app",
+  "url": "https://657.life",
   "author": {
     "name": "657",
     "email": "kuyermqi@outlook.com",
@@ -9,6 +9,11 @@
   },
   "defaultSocialImage": "/images/default-social-image.png",
   "headerLinks": [
+    {
+      "text": "RSS",
+      "url": "/feed.xml",
+      "external": true
+    },
     {
       "text": "Blog",
       "url": "/blog",
@@ -20,19 +25,6 @@
       "external": false
     }
   ],
-  "socialLinks": [
-    {
-      "text": "GitHub(@kuyermqi)",
-      "url": "https://github.com/kuyermqi",
-      "external": true
-    }
-  ],
-  "footerLinks": [
-    {
-      "text": "RSS",
-      "url": "/feed.xml",
-      "external": true
-    }
-  ],
+  "socialLinks": [],
   "showFooterAttribution": true
 }
