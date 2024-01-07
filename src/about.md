@@ -1,14 +1,15 @@
 ---
-title: About Aidan Charles Powell
+title: About
 layout: about.njk
-name: Aidan Charles Powell
-image: '/images/me.jpeg'
+image: '/images/me.jpg'
 ---
 
-Aidan Charles Powell is a 23-year-old health centre receptionist who enjoys watching television, eating out and social media. He is generous and giving, but can also be very rude and a bit lazy.
+99 年生湖南人，目前在四川成都生活。
 
-He is a Jedi who defines himself as straight. He has a degree in medicine. He is a vegetarian. He is obsessed with vintage dresses.
+657 是我名字的谐音，我不太喜欢自己的名字，所以用 657 替代。
 
-He grew up in a middle class neighbourhood. After his mother died when he was young, he was raised by his father
+来到成都后，我养了一条狗，右边的头像就是他，他的大名叫“建国”，小名叫“载载”。他是一条土狗，但是很可爱，很听话。
 
-He is currently married to Maureen Erika Quinn. Maureen is 13 years older than him and works as a sales assistant.
+我的爱好是骑自行车、追剧、观影、编程、创造，以及等待外星人入侵地球。
+
+喜欢和橙子有关的一切，讨厌上班。
