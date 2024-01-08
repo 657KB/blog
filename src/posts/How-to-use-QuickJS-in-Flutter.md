@@ -1,12 +1,10 @@
 ---
-layout: post.njk
 title: 如何在 Flutter 中使用 QuickJS
-datetime: 2023/11/02
-tags: ['post', '技术', 'Flutter', 'QuickJS']
+permalink: posts/{{ title | slug }}/index.html
+date: '2023-11-02'
+updated: '2024-01-08'
+tags: [post, 技术, Flutter, QuickJS]
 ---
-
-
-这篇文章介绍如何将 QuickJS 作为外部依赖嵌入 Flutter 应用。
 
 # 1. QuickJS 介绍
 
