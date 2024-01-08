@@ -1,9 +1,8 @@
 ---
 title: 如何在 Flutter 中使用 QuickJS
-permalink: posts/{{ title | slug }}/index.html
 date: '2023-11-02'
 updated: '2024-01-08'
-tags: [post, 技术, Flutter, QuickJS]
+tags: [技术, Flutter, QuickJS]
 ---
 
 # 1. QuickJS 介绍
