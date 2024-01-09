@@ -3,6 +3,7 @@ title: 如何在 Flutter 中使用 QuickJS
 date: '2023-11-02'
 updated: '2024-01-08'
 tags: [技术, Flutter, QuickJS]
+excerpt: QuickJS 是一个小型且可嵌入的JavaScript引擎。它支持 ES2020 规范，包括模块、异步生成器、代理和 BigInt。它还可选择性地支持数学扩展，如大十进制浮点数（BigDecimal）、大二进制浮点数（BigFloat）和运算符重载。
 ---
 
 # 1. QuickJS 介绍
