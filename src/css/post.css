@@ -22,12 +22,12 @@
 }
 
 .post__aside {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .post__tags {
   opacity: 0.8;
-  font-size: var(--text-sm);
+  font-size: var(--text-base);
 }
 
 .post__tags * + * {
@@ -35,7 +35,9 @@
 }
 
 .post__pagination {
-  margin-top: 2rem;
+  margin: 4rem 0;
+  padding-top: 4rem;
+  border-top: 1px solid #e6e6e6;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,8 +51,20 @@
 .post__pagination a {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 .post__pagination span {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.post__pageination__next {
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.post__pageination__prev {
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
 }
