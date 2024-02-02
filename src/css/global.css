@@ -80,6 +80,7 @@ a:hover {
 
 ol {
   list-style-position: inside;
+  margin-block-start: 1em;
 }
 
 ol ol {
@@ -91,9 +92,13 @@ ul {
   list-style-position: inside;
 }
 
+li::marker {
+  color: var(--accent);
+}
+
 b,
 strong {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 table {
