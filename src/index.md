@@ -22,5 +22,5 @@ title: 'Home'
 </style>
 
 <div class="home-spacer"></div>
-<a class="home-link" href="https://github.com/kuyermqi/">Github: kuyermqi</a>
+<a class="home-link" href="https://github.com/657KB/">Github: 657KB</a>
 <a class="home-link" href="mailto:kuyermqi@outlook.com">Email: kuyermqi@outlook.com</a>
