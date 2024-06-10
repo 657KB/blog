@@ -1,7 +1,7 @@
 ---
 title: About
 layout: about.njk
-image: '/images/me.jpg'
+image: '/images/avatar.jpg'
 ---
 
 99 年湖南人，毕业后在北京打工将近两年后，辞职来到了成都。
