@@ -90,10 +90,15 @@ ol ol {
 ul {
   list-style-type: square;
   list-style-position: inside;
+  padding-top: .5em;
 }
 
 li::marker {
   color: var(--accent);
+}
+
+li {
+  padding-inline-start: .5em;
 }
 
 b,
