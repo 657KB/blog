@@ -1,0 +1,30 @@
+{
+  "name": "657's life",
+  "description": "This is 657 to ground control",
+  "url": "https://657.life",
+  "author": {
+    "name": "657",
+    "email": "kuyermqi@outlook.com",
+    "twitterHandle": "author_handle"
+  },
+  "defaultSocialImage": "/images/default-social-image.png",
+  "headerLinks": [
+    {
+      "text": "Home",
+      "url": "/",
+      "external": false
+    },
+    {
+      "text": "RSS",
+      "url": "/feed.xml",
+      "external": true
+    },
+    {
+      "text": "Blog",
+      "url": "/blog",
+      "external": false
+    }
+  ],
+  "socialLinks": [],
+  "showFooterAttribution": true
+}

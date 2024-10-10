@@ -1,0 +1,70 @@
+---
+layout: base.njk
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="kuyermqi/blog"
+        data-repo-id="R_kgDOLB3vrA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLB3vrM4CcQ02"
+        data-mapping="og:title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<article class="post">
+  <header class="post__header">
+    <h1>{{ title }}</h1>
+    <div class="post__details">
+      <time datetime="{{ page.date | htmlDateString }}">
+        {{ page.date | readableDate }}
+      </time>
+      <span> | </span>
+      <span>{{ content | readingTime }} read</span>
+    </div>
+  </header>
+
+  <main class="post__content">
+    {{ content | safe }}
+  </main>
+
+  <aside class="post__aside">
+    <div class="post__tags">
+      {% for tag in tags | pageTags %}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <a href="{{ tagUrl | url }}">#{{ tag }}</a>
+      {% endfor %}
+    </div>
+
+    <nav class="post__pagination">
+      {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+      {%- if nextPost %}
+
+        <a class="post__pageination__next" href="{{ nextPost.url | url }}">
+          <span>←</span>
+          <span>{{ nextPost.data.title }}</span>
+        </a>
+
+      {% endif %}
+
+      {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+      {%- if previousPost %}
+
+        <a class="post__pageination__prev" href="{{ previousPost.url | url }}">
+          <span>{{ previousPost.data.title }}</span>
+          <span>→</span>
+        </a>
+
+      {% endif %}
+    </nav>
+  </aside>
+
+</article>
+
+<div class="giscus"></div>
