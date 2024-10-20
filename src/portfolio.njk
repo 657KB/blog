@@ -1,0 +1,36 @@
+---
+layout: base.njk
+---
+
+This is my portfolio. I have many ideas, but most of them are unfinished. 
+There are various reasons, but the main one is my own laziness, which I am working hard to overcome.
+
+<section class="portfolio-section">
+  {% for portfolio in site.portfolio %}
+    <h1>{{ portfolio.year }}</h1>
+    {% if portfolio.list !== null %}
+      {% for project in portfolio.list %}
+
+        <div class="project">
+          <div class="project-image"></div>
+          <div class="project-name">{{ project.name }}</div>
+          <div class="project-des">{{ project.description }}</div>
+
+          {% if project.repository !== null %}
+          <div>repository: <a href="{{ project.repository }}">{{ project.repository }}</a></div>
+          {% endif %}
+
+          {% if project.link !== null %}
+          <div>link: <a href="{{ project.link }}">{{ project.link }}</a></div>
+          {% endif %}
+
+        </div>
+
+      {% endfor %}
+    {% endif %}
+    {% if portfolio.list === null %}
+      <div style="min-height: 1rem;"></div>
+      {{ portfolio.whyisempty }}
+    {% endif %}
+  {% endfor %}
+</section>

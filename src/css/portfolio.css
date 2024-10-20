@@ -1,0 +1,31 @@
+.portfolio-section {
+  margin-top: 4rem;
+}
+
+.project {
+  font-size: var(--text-base);
+  margin-top: 2rem;
+}
+
+h1 + .project {
+  margin-top: 1rem;
+}
+
+.project-des + div {
+  margin-top: .25em;
+}
+
+.project-image {
+  max-width: min(400px, 100%);
+  min-height: 240px;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.project-name {
+  font-size: var(--text-xl);
+  font-weight: bold;
+  margin-top: .25em;
+}
+
+.project-des {
+}

@@ -10,21 +10,128 @@
   "defaultSocialImage": "/images/default-social-image.png",
   "headerLinks": [
     {
-      "text": "Home",
-      "url": "/",
+      "text": "Portfolio",
+      "url": "/portfolio",
+      "external": false
+    },
+    {
+      "text": "Photos",
+      "url": "/photos",
+      "external": false
+    },
+    {
+      "text": "Posts",
+      "url": "/posts",
       "external": false
     },
     {
       "text": "RSS",
       "url": "/feed.xml",
       "external": true
-    },
-    {
-      "text": "Blog",
-      "url": "/blog",
-      "external": false
     }
   ],
   "socialLinks": [],
-  "showFooterAttribution": true
+  "showFooterAttribution": true,
+  "portfolio": [
+    {
+      "year": "2024",
+      "list": [
+        {
+          "name": "FPS Motion Cues",
+          "description": "Helps players reduce motion sickness when playing FPS games, inspired by iOS new features \"Vehicle Motion Cues\"",
+          "previewImage": "",
+          "repository": "https://github.com/657KB/fps-motion-cues",
+          "link": null
+        },
+        {
+          "name": "EXIF Watermark Generator",
+          "description": "Add a white strip with EXIF data to the photo.",
+          "previewImage": "",
+          "repository": "https://github.com/657KB/exif-watermark-generator",
+          "link": "https://exif-watermark-generator.vercel.app"
+        },
+        {
+          "name": "Scratch Off (Game)",
+          "description": "A 3D scratch card mini-game made with Three.js.",
+          "previewImage": "",
+          "repository": "https://github.com/657KB/scratch-off",
+          "link": "https://scratch-off.vercel.app"
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "list": [
+        {
+          "name": "14Hz",
+          "description": "A simple web application that allows you to make voice calls to friends through a webpage.",
+          "previewImage": "",
+          "repository": "https://github.com/657KB/14hz",
+          "link": "https://14hz.site"
+        },
+        {
+          "name": "[Unfinished] A schedule application",
+          "description": "A schedule application designed for students that uses AI technology to recognize class schedules from the school website and import them locally.",
+          "previewImage": "",
+          "repository": null,
+          "link": null
+        },
+        {
+          "name": "[Unfinished] A player application",
+          "description": "An application for films and TV shows that can scrape online series and movies, written in Flutter, with embedded QuickJS to run JavaScript scripts, providing a convenient watching experience.",
+          "previewImage": "",
+          "repository": null,
+          "link": null
+        },
+        {
+          "name": "[Unfinished] Flutter QuickJS Library",
+          "description": "A library that runs JavaScript in Flutter using QuickJS.",
+          "previewImage": "",
+          "repository": null,
+          "link": null
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "list": null,
+      "whyisempty": "I was busy with work in 2022, A lot has happened, making me lose interest in writing code in my spare time."
+    },
+    {
+      "year": "2021",
+      "list": [
+        {
+          "name": "[Unfinished] Pitrah",
+          "description": "A TV browser (WebView wrapper), allow users to scan a QR code to remotely open a webpage that simulates a touchpad for controlling the webpage.",
+          "previewImage": "",
+          "repository": "https://github.com/657KB/pitrah",
+          "link": null
+        }
+      ]
+    },
+    {
+      "year": "2020",
+      "list": [
+        {
+          "name": "Pure Schedule / 纯粹课表",
+          "description": "A schedule application developed for a few schools. After maintaining several versions, I went to intern at Xiaomi, and since my work there was also related to scheduling, I stopped updating the app.",
+          "previewImage": "",
+          "repository": null,
+          "link": null
+        }
+      ]
+    },
+    {
+      "year": "2019",
+      "list": [
+        {
+          "name": "HNIT Schedule / 湖工课程表",
+          "description": "A schedule application developed for HNIT, where I studied in college. This is my first project, written in Android",
+          "previewImage": "",
+          "repository": "https://github.com/657KB/HNIT-Schedule",
+          "link": null
+        }
+      ]
+    }
+  ]
 }
