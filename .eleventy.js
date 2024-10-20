@@ -5,6 +5,7 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const htmlmin = require('html-minifier')
 const fs = require('fs')
 const path = require('path')
+const markdownIt = require("markdown-it")
 
 const isDev = process.env.ELEVENTY_ENV === 'development'
 const isProd = process.env.ELEVENTY_ENV === 'production'
@@ -35,6 +36,12 @@ module.exports = function (eleventyConfig) {
       return `<pre class="mermaid">${str}</pre>`
     }
     return highlighter(str, language)
+  })
+
+  const md = new markdownIt({ html: true })
+
+  eleventyConfig.addPairedShortcode('markdown', (content) => {
+    return md.render(content)
   })
 
   eleventyConfig.setDataDeepMerge(true)
@@ -131,7 +138,7 @@ module.exports = function (eleventyConfig) {
       output: 'public',
       includes: 'includes',
       data: 'data',
-      layouts: 'layouts'
+      layouts: 'layouts',
     },
     passthroughFileCopy: true,
     templateFormats: ['html', 'njk', 'md'],
