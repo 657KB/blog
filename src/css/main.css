@@ -8,6 +8,7 @@
 @import 'footer.css';
 @import 'post.css';
 @import 'portfolio.css';
+@import 'photo.css';
 
 .layout-wrapper {
   display: grid;

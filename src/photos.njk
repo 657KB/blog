@@ -1,3 +1,7 @@
 ---
 layout: base.njk
 ---
+
+{% for i in range(0, photoNum) %}
+<img class="photo" src="/images/photos/{{ i }}-compressed.jpg" loading="lazy" alt="photo">
+{% endfor %}  
