@@ -4,7 +4,7 @@
 
 .project {
   font-size: var(--text-base);
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 h1 + .project {
@@ -17,8 +17,14 @@ h1 + .project {
 
 .project-image {
   max-width: min(400px, 100%);
-  min-height: 240px;
+  max-height: 50vh;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, .1);
   background-color: rgba(0, 0, 0, .1);
+}
+
+.project-image > img {
+  margin-top: unset;
 }
 
 .project-name {
@@ -27,5 +33,6 @@ h1 + .project {
   margin-top: .25em;
 }
 
-.project-des {
+.project-link {
+  color: rgba(0, 0, 0, .64);
 }

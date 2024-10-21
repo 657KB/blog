@@ -61,3 +61,10 @@
 .nav__list a:hover {
   color: rgb(41, 41, 41);
 }
+
+@media screen and (max-width: 470px) {
+  .nav__list li {
+    flex: 1;
+    margin-right: unset;
+  }
+}

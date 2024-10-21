@@ -2,8 +2,7 @@
 layout: base.njk
 ---
 
-This is my portfolio. I have many ideas, but most of them are unfinished. 
-There are various reasons, but the main one is my own laziness, which I am working hard to overcome.
+I have many ideas, but most of them are unfinished. There are various reasons, the main one is my own laziness, which I am working hard to overcome.
 
 <section class="portfolio-section">
   {% for portfolio in site.portfolio %}
@@ -12,16 +11,21 @@ There are various reasons, but the main one is my own laziness, which I am worki
       {% for project in portfolio.list %}
 
         <div class="project">
-          <div class="project-image"></div>
+          {% if project.previewImage !== null %}
+          <div class="project-image">
+            <img src="{{ project.previewImage }}" />
+          </div>
+          {% endif %}
+
           <div class="project-name">{{ project.name }}</div>
           <div class="project-des">{{ project.description }}</div>
 
           {% if project.repository !== null %}
-          <div>repository: <a href="{{ project.repository }}">{{ project.repository }}</a></div>
+          <div class="project-link">repo: <a href="{{ project.repository }}">{{ project.repository }}</a></div>
           {% endif %}
 
           {% if project.link !== null %}
-          <div>link: <a href="{{ project.link }}">{{ project.link }}</a></div>
+          <div class="project-link">link: <a href="{{ project.link }}">{{ project.link }}</a></div>
           {% endif %}
 
         </div>
